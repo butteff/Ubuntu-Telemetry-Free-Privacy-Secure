@@ -16,7 +16,7 @@ sudo apt-get -y purge unity-webapps-common
 
 
 # AptUrl Removing:
-sudo apt-get -y purge apturl #tool. which give possibilities to start installation by clicking on url, can be execute with js, which is not secure
+sudo apt-get -y purge apturl #tool, which gives possibilities to start installation by clicking on url, can be executed with js, which is not secure
 # ========
 
 
