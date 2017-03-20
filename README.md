@@ -20,6 +20,6 @@ This Bash script just removes Telemetry and does basic system more secure and pr
 3. Read all code in the file and uncomment some commands, if you need them, save the changes.
 4. Execute the script from terminal: *sudo ./ubuntu-secure.sh*
 
-======================================================================
+##### Thank you!
 
 Thank you for your interest to the script. Any issues, advices and pull requests are welcome.
