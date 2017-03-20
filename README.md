@@ -11,8 +11,10 @@ This Bash script just removes Telemetry and does basic system more secure and pr
 * DNS encryption (dnscrypt-proxy)
 * FireWall (UFW)
 * Antivirus (ClamAV)
-* **[optionaly]** Cups Daemon (needed for printers) removing *[has remote access and open port, better to remove, if you don't use printers]*
-* **[optionaly]** Remmina (tool for remote connections) removing *[keep utilities and libruares in system, which potentially can use third-party software. Better to remove, if you don't use it.]*
+* **[optionaly]** Cups Daemon (needed for printers) removing 
+*[has remote access and open port, better to remove, if you don't use printers]*
+* **[optionaly]** Remmina (tool for remote connections) removing 
+*[keep utilities and libruares in system, which potentially can use third-party software. Better to remove, if you don't use it.]*
 
 ## How to use:
 1. Download all files
