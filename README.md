@@ -1,4 +1,4 @@
-# Ubuntu-Telemetry-Free-Privacy-Secure
+# Ubuntu Telemetry-Free, Privacy and Secure
 This Bash script just removes Telemetry and does basic system more secure and protected
 
 ## This script does:
