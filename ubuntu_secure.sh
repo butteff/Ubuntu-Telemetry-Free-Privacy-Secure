@@ -59,11 +59,31 @@ sudo apt-get -y install clamav
 sudo apt-get -y install clamav-daemon
 # ========
 
+# Fail2Ban installation (protects from brute force login):
+sudo apt-get install fail2ban
+# ========
 
 # Other:
-#	sudo apt-get -y purge cups  #uncoment if you don't use printers
-#	sudo apt-get purge remmina  #uncomment if you don't use remmina remote connection tool [has libruaries for remote connection, which can be unsecure]
+#	sudo apt-get -y purge cups cups-server-common  #uncoment if you don't use printers
+#	sudo apt-get purge -y remmina remmina-common remmina-plugin-rdp remmina-plugin-vnc  #uncomment if you don't use remmina remote connection tool [has libruaries for remote connection, which can be unsecure]
+sudo apt-get purge -y unity8* #just remove it, because of potential telemetry from unity8, which is in beta state and exists only for preview, for now you can use 7 version [potential problem]
+sudo apt-get purge -y libmirserver41 #desktop server from unity8 [potential problem]
+sudo apt-get purge -y gdbserver #remote tool for gnome debug
+sudo apt-get purge -y gvfs-fuse #virtual file system [potential problem]
+sudo apt-get purge -y evolution-data-server # I just don't like "server" word here. Potentional connection possibility? [potential problem]
+sudo apt-get purge -y evolution-data-server-utouch # ---//---- [potential problem]
+sudo apt-get purge -y evolution-data-server-online-accounts # ---//---- [potential problem]
+sudo apt-get purge -y libfolks-eds25* # libfolks is a library that aggregates people from multiple sources (eg, Telepathy connection managers for IM contacts, Evolution Data Server for local contacts, libsocialweb for web service contacts, etc.) to create metacontacts. [potential problem]
+sudo apt-get purge -y snapd #telemetric package manager from canonical
+sudo apt-get purge -y libhttp-daemon-perl #http server for perl
+sudo apt-get purge -y vino #vnc server (remote desktop share tool)
+sudo apt-get purge -y unity-scope-video-all #[potential problem]
+sudo apt-get purge -y unity-scope-video-remote #[potential problem]
+
+sudo apt-get purge -y xserver-xorg-video-vmware # Can be used for virtualization [potential problem]
+sudo apt-get purge -y openvpn #bad software can use it for proxy servers connections [potential problem]
 # ========
+
 
 
 sudo apt-get -y autoremove #autoremove all other unused packages after uninstallation
