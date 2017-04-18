@@ -12,11 +12,11 @@ adversaries however**.*
 * AptUrl Removing ( tool, which gives possibilities to start installation by clicking on url, can be executed with js, which is not secure)
 * Guest session disable for LightDM
 * Remote login disable for LightDm
-* DNS encryption (dnscrypt-proxy) *[should to be manually configured and added to ufw. Just read the end of the script and google "How To Install DNSCrypt on Ubuntu"]*
-* FireWall (UFW) *[should to be manually configured for another yoursoftware]*
+* DNS encryption (dnscrypt-proxy) *[**should to be manually configured and added to ufw**. Just read the end of the script and google "How To Install DNSCrypt on Ubuntu"]*
+* FireWall (UFW) *[**should to be manually configured for another your software**]*
 * Antivirus (ClamAV)
 * Brute Force protection (Fail2Ban)
-* Basic Telemetry Removing (ZeitGeist) and unsecure libs and pre-installed software with high and potentional risks
+* Basic Telemetry Removing (ZeitGeist) and unsecure libs and pre-installed software with high and potentional risks (like, for example, Vino - VNC server for remote desktop sharing and system control or libhttp-daemon-perl - http server for perl or gdbserver - remote tool for gnome debug. Some software have a potentional risks (better to remove, if you don't use it, because of opening ports, for example. **Please, read the comments in the script and use only strings, that you need**)
 
 ## How to use:
 1. Download all files
