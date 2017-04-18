@@ -7,7 +7,8 @@ This Bash script just removes Telemetry and does basic system more secure and pr
 * AptUrl Removing ( tool, which gives possibilities to start installation by clicking on url, can be executed with js, which is not secure)
 * Guest session disable for LightDM
 * Remote login disable for LightDm
-* DNS encryption (dnscrypt-proxy) [should to be manually configured and added to ufw. Just read the end of the script and google "
+* DNS encryption (dnscrypt-proxy) 
+[should to be manually configured and added to ufw. Just read the end of the script and google "
 How To Install DNSCrypt on Ubuntu"]
 * FireWall (UFW)
 * Antivirus (ClamAV)
