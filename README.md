@@ -24,6 +24,18 @@ adversaries however**.
 3. **Read all code in the file and uncomment some commands, if you need them, and comment strings, which you don't want to use**, save the changes.
 4. Execute the script from terminal: *sudo ./ubuntu-secure.sh*
 
+## What to do more:
+* Install additional plugins to firefox, like this:
+    - Privacy Badger
+    - Ghostery
+    - Self-destructing cookies
+    - NoScript
+    - HTTPS everywhere
+    - PrivaConf (also google "Firefox Debloat in about:config" and manually switch off some problems)
+* Remove any software, that you don't use
+* Configure SandBox-like systems for some not-well proprietary software like, for example, skype. AppArmor, SeLinux and try to implement it
+* Configure manually the kernel and compile it from source with modules, that you need only
+
 ### Thank you!
 
 Thank you for your interest to the script. Any issues, advices and pull requests are welcome.
