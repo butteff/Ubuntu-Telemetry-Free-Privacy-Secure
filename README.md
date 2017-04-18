@@ -1,5 +1,10 @@
 # Ubuntu Telemetry-Free, Privacy and Secure
-This Bash script just removes Telemetry and does basic system more secure and protected
+This Bash script just removes pre-installed Telemetry and pre-installed software and libs with potentional or high risk. 
+Script removes them to make you experience better and more secure.
+
+*This script removes several obviously insecure features of Ubuntu. 
+**Please do not imagine it secures your machine against serious 
+adversaries however**.*
 
 ## This script does:
 * System update and software upgrade
@@ -7,7 +12,7 @@ This Bash script just removes Telemetry and does basic system more secure and pr
 * AptUrl Removing ( tool, which gives possibilities to start installation by clicking on url, can be executed with js, which is not secure)
 * Guest session disable for LightDM
 * Remote login disable for LightDm
-* DNS encryption (dnscrypt-proxy)   *[should to be manually configured and added to ufw. Just read the end of the script and google "How To Install DNSCrypt on Ubuntu"]*
+* DNS encryption (dnscrypt-proxy) *[should to be manually configured and added to ufw. Just read the end of the script and google "How To Install DNSCrypt on Ubuntu"]*
 * FireWall (UFW) *[should to be manually configured for another yoursoftware]*
 * Antivirus (ClamAV)
 * Brute Force protection (Fail2Ban)
