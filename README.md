@@ -21,7 +21,7 @@ adversaries however**.
 ## How to use:
 1. Download all files
 2. Make ubuntu-secure.sh executable with *sudo chmod +x ubuntu-secure.sh* command.
-3. **Read all code in the file and uncomment some commands**, if you need them, save the changes.
+3. **Read all code in the file and uncomment some commands, if you need them, and comment strings, which you don't want to use**, save the changes.
 4. Execute the script from terminal: *sudo ./ubuntu-secure.sh*
 
 ### Thank you!
