@@ -1,10 +1,9 @@
 # Ubuntu Telemetry-Free, Privacy and Secure
 This Bash script just removes pre-installed Telemetry and pre-installed software and libs with potentional or high risk. 
-Script removes them to make you experience better and more secure.
+Script removes them to make you experience better and more secure. Also, the script installs additional software for protection.
 
-*This script removes several obviously insecure features of Ubuntu. 
 **Please do not imagine it secures your machine against serious 
-adversaries however**.*
+adversaries however**.
 
 ## This script does:
 * System update and software upgrade
