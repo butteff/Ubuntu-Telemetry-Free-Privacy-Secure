@@ -33,7 +33,7 @@ adversaries however**.
     - HTTPS everywhere
     - PrivaConf (also google "Firefox Debloat in about:config" and manually switch off some problems)
 * Remove any software, that you don't use
-* Configure SandBox-like systems for some not-well proprietary software like, for example, skype. AppArmor, SeLinux and try to implement it
+* Configure SandBox-like systems for some not-well proprietary software like, for example, skype. Learn AppArmor, SeLinux and try to implement it
 * Configure manually the kernel and compile it from source with modules, that you need only
 
 ### Thank you!
