@@ -1,7 +1,15 @@
 #!/bin/bash
 
-# This script just removes Telemetry and does basic system more secure and protected
+# This Bash script just removes pre-installed Telemetry and pre-installed software and libs with potentional or high risk. 
+# Script removes them to make you experience better and more secure.
+
+# This script removes several obviously insecure features of Ubuntu. 
+# Please do not imagine it secures your machine against serious adversaries however
+
 # Pull requests are welcome on github: https://github.com/butteff/Ubuntu-Telemetry-Free-Privacy-Secure
+
+# ========
+
 
 # System Up to Date:
 sudo apt-get update
@@ -38,6 +46,17 @@ sudo apt-get -y purge zeitgeist-extension-fts
 
 # DNS encryption:
 sudo apt-get -y install dnscrypt-proxy #tool, which helps to protect dns leak
+# should to be manually configured and added to ufw. Just read all the section "Trouble Shooting" here and google "How To Install DNSCrypt on Ubuntu"].
+
+# Trouble Shooting:
+# 	if internet will not work, try to restart dnscrypt-proxy: 
+# 		sudo /etc/init.d/dnscrypt-proxy restart
+# 	Also, may be tool will use some another port, detect the port in this output: 
+# 		sudo ss -ntulp 
+# 	Then add the port to ufw:
+# 		sudo ufw allow out [portnumber]
+# 		sudo ufw reload
+
 # ========
 
 
@@ -51,6 +70,9 @@ sudo ufw default deny outgoing #blocks any outgoing traffic
 sudo ufw allow out 80 #Allow web http connections
 sudo ufw allow out 443 #Allow web https connections
 sudo ufw enable #Enable UFW
+
+# ADD ANOTHER RULES MANUALLY FOR YOUR SOFTWARE, IF YOU NEED IT!
+
 # ========
 
 
@@ -87,15 +109,3 @@ sudo apt-get purge -y openvpn #bad software can use it for proxy servers connect
 
 
 sudo apt-get -y autoremove #autoremove all other unused packages after uninstallation
-
-
-# Trouble Shooting:
-# 	if internet will not work, try to restart dnscrypt-proxy: 
-# 		sudo /etc/init.d/dnscrypt-proxy restart
-# 	Also, may be tool will use some another port, detect the port in this output: 
-# 		sudo ss -ntulp 
-# 	Then add the port to ufw:
-# 		sudo ufw allow out [portnumber]
-# 		sudo ufw reload
-# ========
-
