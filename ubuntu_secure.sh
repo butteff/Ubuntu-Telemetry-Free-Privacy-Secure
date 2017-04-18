@@ -106,6 +106,17 @@ sudo apt-get purge -y xserver-xorg-video-vmware # Can be used for virtualization
 sudo apt-get purge -y openvpn #bad software can use it for proxy servers connections [potential problem]
 # ========
 
-
-
 sudo apt-get -y autoremove #autoremove all other unused packages after uninstallation
+
+# What to do more:
+# 1. Install additional plugins to firefox, like this:
+#    - Privacy Badger
+#    - Ghostery
+#    - Self-destructing cookies
+#    - NoScript
+#    - HTTPS everywhere
+#    - PrivaConf (also google "Firefox Debloat in about:config" and manually switch off some problems)
+# 2. Remove any software, that you don't use
+# 3. Configure SandBox-like systems for some not-well proprietary software like, for example, skype. AppArmor, SeLinux and try to implement it
+# 4. Configure manually the kernel and compile it from source with modules, that you need only
+# ========

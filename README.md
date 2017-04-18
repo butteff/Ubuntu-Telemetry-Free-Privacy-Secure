@@ -17,6 +17,7 @@ adversaries however**.*
 * Antivirus (ClamAV)
 * Brute Force protection (Fail2Ban)
 * Basic Telemetry Removing (ZeitGeist) and unsecure libs and pre-installed software with high and potentional risks (like, for example, Vino - VNC server for remote desktop sharing and system control or libhttp-daemon-perl - http server for perl or gdbserver - remote tool for gnome debug. Some software have a potentional risks (better to remove, if you don't use it, because of opening ports, for example. **Please, read the comments in the script and use only strings, that you need**)
+* Additional recomendations (about firefox plugins, sandbox for software, own latest kernel from sources for your system, etc.)
 
 ## How to use:
 1. Download all files
