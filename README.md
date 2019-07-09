@@ -40,6 +40,6 @@ adversaries however**.
 
 Thank you for your interest to the script. Any issues, advices and pull requests are welcome.
 Also, please **understand this important notes**:
-1.This script is kind of a small helper, it is not a full protection, don't use it, if you don't understand what it does.
-2. Read the code first and make sure, that all is ok for you. 
-3. **It has not been tested for the last ubuntu versions (so be carefuly, when you use it, for example removing of some zeitgeist libs can touch Unity dependencies**)
+* This script is kind of a small helper, it is not a full protection, don't use it, if you don't understand what it does.
+* Read the code first and make sure, that all is ok for you. 
+* **It has not been tested for the last ubuntu versions (so be carefuly, when you use it, for example removing of some zeitgeist libs can touch Unity dependencies**)
