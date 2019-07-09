@@ -15,13 +15,13 @@ adversaries however**.
 * FireWall (UFW) *[**should to be manually configured for another your software**]*
 * Antivirus (ClamAV)
 * Brute Force protection (Fail2Ban)
-* Basic Telemetry Removing (ZeitGeist) and unsecure libs and pre-installed software with high and potentional risks (like, for example, Vino - VNC server for remote desktop sharing and system control or libhttp-daemon-perl - http server for perl or gdbserver - remote tool for gnome debug. Some software have a potentional risks (better to remove, if you don't use it, because of opening ports, for example. **Please, read the comments in the script and use only strings, that you need**)
+* Basic Telemetry Removing (ZeitGeist) and unsecure libs and pre-installed software with high and potentional risks (like, for example, Vino - VNC server for a remote desktop sharing and system control or libhttp-daemon-perl - http server for perl or gdbserver - remote tool for gnome debug. Some software have a potentional risks (better to remove, if you don't use it, because of opening ports, for example. **Please, read the comments in the script and use only strings, that you need**)
 * Additional recomendations (about firefox plugins, sandbox for software, own latest kernel from sources for your system, etc.)
 
 ## How to use:
-1. Download all files
+1. Download all the files
 2. Make ubuntu-secure.sh executable with *sudo chmod +x ubuntu-secure.sh* command.
-3. **Read all code in the file and uncomment some commands, if you need them, and comment strings, which you don't want to use**, save the changes.
+3. **Read all the code lines in the file and uncomment some commands, if you need them, and comment strings, which you don't want to use**, save the changes.
 4. Execute the script from terminal: *sudo ./ubuntu-secure.sh*
 
 ## What to do more:
@@ -33,9 +33,13 @@ adversaries however**.
     - HTTPS everywhere
     - PrivaConf (also google "Firefox Debloat in about:config" and manually switch off some problems)
 * Remove any software, that you don't use
-* Configure SandBox-like systems for some not-well proprietary software like, for example, skype. Learn AppArmor, SeLinux and try to implement it
-* Configure manually the kernel and compile it from source with modules, that you need only
+* Configure SandBox-like systems for a some not-well proprietary software like, for example, skype. Learn AppArmor, SeLinux and try to implement it
+* Configure manually the kernel and compile it from a source code with modules, that you need only
 
 ### Thank you!
 
 Thank you for your interest to the script. Any issues, advices and pull requests are welcome.
+Also, please **understand this important notes**:
+1.This script is kind of a small helper, it is not a full protection, don't use it, if you don't understand what it does.
+2. Read the code first and make sure, that all is ok for you. 
+3. **It has not been tested for the last ubuntu versions (so be carefuly, when you use it, for example removing of some zeitgeist libs can touch Unity dependencies**)
