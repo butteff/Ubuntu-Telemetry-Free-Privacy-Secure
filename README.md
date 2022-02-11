@@ -31,6 +31,9 @@ adversaries however**.
     - NoScript
     - HTTPS everywhere
     - PrivaConf (also google "Firefox Debloat in about:config" and manually switch off some problems)
+    - Block Cloudflare MITM Attack 
+    - Decentraleyes
+    - Review this page to find more: https://github.com/amq/firefox-debloat
 * Remove any software, that you don't use
 * Configure SandBox-like systems for a some not-well proprietary software like, for example, skype. Learn AppArmor, SeLinux and try to implement it
 * Configure manually the kernel and compile it from a source code with modules, that you need only
